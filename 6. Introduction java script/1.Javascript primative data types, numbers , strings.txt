@@ -1,0 +1,28 @@
+javascript has 5 primitive data types
+//numbers
+4,5,9.3,-10
+//strings
+"hello world"
+//booleans
+true or false
+
+//null and undefined
+null
+undefined
+
+// modulo 
+10%3 //remainder is 1
+
+// strings
+"" or''
+
+//concatenation 
+''  + ''
+
+//escape characters "\"
+
+//string length property "hello world".length
+
+//acces individual characters
+"hello"[4] //h
+

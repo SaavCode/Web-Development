@@ -1,0 +1,27 @@
+p {
+
+/*Content - Width and Height*/
+/*change width of the element border*/
+width: 50%;
+/*Height: 50%*//*50% of the current element*/
+/*Border*/
+
+border: 2px solid blue;
+
+/*Padding:pads the sides of the border to content area*/
+
+/*padding: 10px;*/
+padding-left: 40px;
+
+/*Margin: space between element..margin size*/
+/*margin: 100px;*/
+/*margin-top: 500px;*/
+/*margin: 90px 20px 300px 100px; all sides at once*/
+/*margin: 0 auto 0 auto;*/
+margin: 0 auto;
+margin: 50px 20px;
+}
+
+
+
+

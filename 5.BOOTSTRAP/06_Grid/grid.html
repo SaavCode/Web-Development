@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Grid System</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <style type="text/css">
+  /*make pink class for div testing*/
+  .pink {
+    background: pink;
+    border: 1px solid purple;
+  }
+  .orange {
+    background: orange;
+    border: 1px dashed red;
+    height: 50px;
+  }
+  </style>
+
+</head>
+<body>
+
+<!-- =====================================-->
+<!--             OBJECTIVES               -->
+<!-- 1. Understand Purpose of Grid System -->
+<!-- 2. Understand the 4 different sizes  -->
+<!-- 3. Write Nested Grids                -->
+<!-- ==================================== -->
+<!-- wehen defining a bootstrap grid it needs to be inside a container -->
+<div class="container">
+
+<!-- when col is md 2 changes to two units at medium -->
+<!--   <div class="row">
+
+    <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+    <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+    <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+    <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+    <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+    <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+    <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+    <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+    <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+    <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+    <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+    <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+  </div> -->
+
+  <!-- also define aother div defined as a row -->
+  <div class="row">
+  <!-- row with each 6units -->
+    <div class="col-md-3 col-sm-6 pink">
+    <!-- nested row with two elements -->
+      <div class="row">
+      <!-- column large6 -->
+        <div class="col-lg-6 orange">FIRST HALF</div>
+        <!-- colum large 6 -->
+        <div class="col-lg-6 orange">OTHER HALF</div>
+      </div>
+    </div>
+    <!-- apply pink class to divs to make visible -->
+    <!-- total gris size is 12 -->
+    <!-- at medium each are 3 units so itwould be 4 per column-->
+    <!-- each are six units at small, so two per column -->
+    <!-- when shrunk -->
+    <div class="col-md-3 col-sm-6 pink">Time</div>
+    <div class="col-md-3 col-sm-6 pink">Place</div>
+    <div class="col-md-3 col-sm-6 pink">
+    <!-- nested row with grid -->
+      <div class="row">
+        <div class="col-lg-2 orange"></div>
+        <div class="col-lg-2 orange"></div>
+        <div class="col-lg-2 orange"></div>
+        <div class="col-lg-2 orange"></div>
+        <div class="col-lg-2 orange"></div>
+        <div class="col-lg-2 orange"></div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+

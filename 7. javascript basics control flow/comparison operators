@@ -1,0 +1,6 @@
+//conparison operators
+
+double equal == equal to// type coercion
+
+=== // checks one is a string one is a number// use double instead
+

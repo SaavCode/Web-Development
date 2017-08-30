@@ -1,0 +1,16 @@
+img {
+	width: 30%;/*custom width*/
+	float: left;/*float takes elements and floats to the left*/
+	margin: 1.66%;/*custom margin*/
+}
+
+p {
+	font-family: Orbitron;/*use custom text*/
+	margin-left: 1.66%;/*add margin to the left*/
+	font-size: 28px;/*change paragraph font size*/
+	font-weight: 800;/*increase font line width*/
+	text-transform: uppercase;/*change all text to uppercase*/
+	border-bottom: 3px solid #f1f1f1;/*add border to the bottom*/
+	width: 48%;/* */
+	padding-bottom: 20px;/**/
+}

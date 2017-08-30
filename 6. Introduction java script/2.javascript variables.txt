@@ -1,0 +1,17 @@
+var yourVariableName - yourValue;
+
+var num  = 37;
+var isCool = true;
+
+var name = "lazy";
+
+"hello" + name
+
+//null and undefined
+
+var player = true 
+
+//undefined : no value yet
+
+
+

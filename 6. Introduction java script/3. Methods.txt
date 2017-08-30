@@ -1,0 +1,17 @@
+//alert
+
+alert("hello there")// gives a pop up
+
+//prompt:get input from the user
+
+prompt("what is your name?")
+
+//console.log
+
+console.log("hello")// prints hello
+
+clear() // clears console log
+
+
+
+

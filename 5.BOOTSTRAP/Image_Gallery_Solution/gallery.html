@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Navbars</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- llink to the bootstrap cdn awesome font -->
+  <!-- alloes for font awesome icons -->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <style type="text/css">
+  /*add padding to the body */
+    body { padding-top: 70px; }
+    /*jumbotron color change*/
+    .jumbotron {
+      color: #2c3e50;
+      background: #ecf0f1;
+
+    }
+    .navbar-inverse {
+      background: #2c3e50;
+      color: white;
+    }
+/*navbar inverse changes color of text*/
+    .navbar-inverse .navbar-brand, .navbar-inverse a{
+      color:white;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+      color: white;
+    } 
+
+  </style>
+
+</head>
+<!--  -->
+<!--  -->
+<!-- start of body -->
+<body>
+<!-- start of navbar -->
+<!-- (navbar-inverse) change color -->
+<!--  (navbar-fixed-top)fixed to the top-->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+          <!-- each span is a line on the button -->
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+        <!-- add the icon/camera -->
+				<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture"></span> IMGS</a>
+			</div>
+      <!-- collapsable button -->
+			<div class="collapse navbar-collapse" id="bs-nav-demo">
+				<ul class="nav navbar-nav">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+<!-- adding links to the right side of the navbar -->
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Sign Up</a></li>
+					<li><a href="#">Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+<!--  -->
+<!--end of container-->
+<!-- end of navbar -->
+<!--  -->
+<!--  -->
+<!-- start a conatiner for the jumbotron -->
+  <div class="container">
+  
+  <!--  -->
+<!-- start of jubotron  -->
+<!--  -->
+<!--  -->
+  <div class="jumbotron">
+  <!-- retro camera logo -->
+    <h1><i class="fa fa-camera-retro"></i> My Photos </h1>
+    <p>Favorite photos iv'e taken</p> 
+  </div>
+ <!--  -->
+ <!--  -->
+ <!--  -->
+<!-- make the grid -->
+<!-- make each 4 got 3 on large and then2 on small -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+      <!--  -->
+      <!--  -->
+      <!-- thumbnail scales down images -->
+        <div class="thumbnail">
+          <img src="http://i.imgur.com/qK42fUu.jpg">
+        </div>
+      </div>
+      <!-- resize when small to have two per row -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://images.unsplash.com/photo-1435771112039-1e5b2bcad966?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+        </div>
+      
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://images.unsplash.com/photo-1442406964439-e46ab8eff7c4?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://images.unsplash.com/photo-1439524970634-649c37a69e5c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1450&h=825&fit=crop&s=bfda9916c885869b43b70738693428d9">
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://images.unsplash.com/photo-1444090542259-0af8fa96557e?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+        </div>
+      </div>
+  
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://images.unsplash.com/photo-1439694458393-78ecf14da7f9?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+      </div>
+    </div>
+  </div>
+  <!-- end of jumbotron -->
+  <!--endo of container  -->
+  <!--  -->
+<!-- add javascript and jquery -->
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
+

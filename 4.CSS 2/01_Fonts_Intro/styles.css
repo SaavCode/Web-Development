@@ -1,0 +1,29 @@
+/*font-family*/
+/*select paragraphs*/
+p {
+	/*select font*/
+	font-family: Arial;
+}
+/*header 1 change font to georgia*/
+h1 {
+	font-family: Georgia;
+}
+
+/*change the font-size*/
+/*change body font*/
+body {
+	font-size: 10px;
+}
+/*header*/
+h1 {
+	font-size: 5.0em;/*em = relative font size, takes from parent*/
+}
+/*paragaph*/
+
+p {
+	font-size: 2.0em;/*increase font*/
+}
+
+span {
+	font-size: 2.0em;/*span selects a piece of the code*/
+}
