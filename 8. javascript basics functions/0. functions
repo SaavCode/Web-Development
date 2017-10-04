@@ -1,0 +1,10 @@
+function singSong() {
+    console.log("Twinkle, twinkle, little star,");
+    console.log("How I wonder what you are!");   
+    console.log("Up above the world so high,");
+    console.log("Like a diamond in the sky.");
+}
+//Functions
+//We can write a function to help us out
+//to sing the entire song 4 times
+singSong()
