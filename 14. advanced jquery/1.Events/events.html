@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Events</title>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+<!-- add an alert to the header with jquery -->
+
+<!-- $("h1").click(function(){
+	alert("h1 clicked!");
+}) -->
+<h1>jQuery Events</h1>
+<h1>jQuery Events</h1>
+<h1>jQuery Events</h1>
+
+<!-- input box -->
+<input type="text">
+<!-- show key pressed -->
+<!-- $("input").keypress(function(){
+	console.log("you pressed a key!");
+
+}) -->
+
+<!-- $("input").keypress(function(event){
+	if(event.which === 13){
+	alert("you hit enter!");
+	}
+
+}) -->
+
+
+<!--  -->
+<!--  -->
+<!-- jquery select buttons $("button") -->
+<!-- add an alert to buttons -->
+<!-- $("button").click(function(){
+	alert("button clicked!");
+
+}) -->
+<button>Don't Click Me</button>
+<!-- button click background color change -->
+<!-- $("button").click(function(){
+	
+$(this).css("background", "pink");
+
+}) -->
+<button>Sersiouly Don't Click Me</button>
+<!-- log the text -->
+	<!-- $("button").click(funciton(){
+	var text = $(this).text();
+	console.log("you clicked " + text)
+	}) -->
+<button>This is your last warning!</button>
+
+</body>
+</html>
+
+<!-- events in jquery -->
+
+<!-- change h1 color to purpleon press -->
+<!-- $("h1").on("click", function(){
+	
+$(this).css("color", "purple");
+
+}) -->
+
+<!--  -->
+<!-- $("button").on("mouseenter", function(){
+	console.log("mouse enter");
+
+}); -->
+
+<!-- change to bold on hover -->
+<!-- $("button").on("mouseenter", function(){
+	$(this).css("font-weight"),"bold");
+
+}); -->
+
+<!-- change to  normal on leave -->
+<!-- $("button").on("mouseleave", function(){
+	$(this).css("font-weight"),"normal");
+
+}); -->
